@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.activity.result.contract.ActivityResultContract;
@@ -53,6 +54,11 @@ public class LoginActivity extends AppCompatActivity {
                             ));
             System.out.println(binding.usernameEt);
             System.out.println(binding.passwordEt);
+            CharSequence text = "Успешный Вход";
+            int duration = Toast.LENGTH_SHORT;
+
+            Toast toast = Toast.makeText(this /* MyActivity */, text, duration);
+            toast.show();
             finish();
         });
     }
