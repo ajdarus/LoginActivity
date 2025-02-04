@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">MyFirstProject</string>
+    <string name="go_to_login">Log In</string>
+    <string name="continuebt">Continue</string>
+    <string name="title_activity_new2">NewActivity2</string>
+
+</resources>

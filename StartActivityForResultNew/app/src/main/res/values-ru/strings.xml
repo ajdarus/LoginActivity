@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="go_to_login">Войти</string>
+    <string name="continuebt">Продолжить</string>
+</resources>
